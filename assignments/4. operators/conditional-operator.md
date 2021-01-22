@@ -127,17 +127,23 @@ switch(true) {
   case (marks>90):
     alert("AA");
     break;
-  case (marks>90 && marks<=90):
-    alert("AA");
+  case (marks>80 && marks<=90):
+    alert("AB");
     break;
-  case (marks>90):
-    alert("AA");
+  case (marks>70 && marks<=80):
+    alert("BB");
     break;
-  case (marks>90):
-    alert("AA");
+  case (marks>60 && marks<=70):
+    alert("BC");
     break;
-  case (marks>90):
-    alert("AA");
+  case (marks>50 && marks<=60):
+    alert("CC");
+    break;
+  case (marks>40 && marks<=50):
+    alert("CD");
+    break;
+  case (marks>30 && marks<=40):
+    alert("DD");
     break;
   default:
     alert("FF");
