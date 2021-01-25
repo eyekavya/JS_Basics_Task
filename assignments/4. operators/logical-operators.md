@@ -42,6 +42,15 @@ false || "Hey" || undefined //"Hey"
 let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
+if (isGuestOneVeg && isGuestTwoVeg == true){
+    console.log("Only offer up vegan dishes.");
+}
+else if (isGuestOneVeg || isGuestTwoVeg == true) {
+    console.log("Make sure to offer up some vegan options.");
+}
+else {
+    console.log("Offer up anything on the menu");
+}
 ```
 
 
@@ -52,6 +61,15 @@ let isGuestTwoVeg = false;
 ```js
 let temperature = 4;
 // Your code goes here
+if (temperature<32){
+    console.log("It is freezing outside");
+}
+else if (temperature>110) {
+    console.log("It is hot outside");
+}
+else {
+    console.log("Go for it. It is pretty nice out");
+}
 ```
 
 4. 🎖 Output of this
